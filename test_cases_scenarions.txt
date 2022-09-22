@@ -1,0 +1,28 @@
+Instructions to run code :
+1. install chrome driver with latest release. version : 105.
+2. put file path in the code.
+3. run the code.
+
+
+Positive Test Cases :
+Scnearion 1 :
+GIVEN on the Selection partner page
+WHEN click on any radio button
+THEN no error text/ able to click on radio button
+
+Scnearion 2 :
+GIVEN on the Selection partner page
+WHEN get a demo button is visible
+THEN no error
+
+Scnearion 3 :
+GIVEN on the Selection partner page
+WHEN click on radio button 
+AND  get a demo button
+THEN redirected to new page
+
+Negative Test Cases :
+Scnearion 1 :
+GIVEN on the Selection partner page
+WHEN click on get a demo button
+THEN error text occured
